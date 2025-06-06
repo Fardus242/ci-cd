@@ -1,16 +1,17 @@
 name: CoderCo CICD workflow
 
-on:  [push]
+on: [push]
 
 jobs:
- build:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code
-      uses: actions/cheeckout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: We are testing this workflow
-      run: echo Hello everyone
-   
+        run: echo Hello everyone
+
 
 
 
