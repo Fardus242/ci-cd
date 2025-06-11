@@ -1,5 +1,5 @@
 def say_hello():
     return "Hello World!"
 
-if __name__ == "_master__":
+if __name__ == "__master__":
     print(say_hello())
