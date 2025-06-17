@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.7, 3.8, 3.9]
+        python-version: [3.8, 3.9, 3.11]
 
     steps:
       - name: checkout code
@@ -24,7 +24,7 @@ jobs:
         
       - name: run tests
         run: |
-          cd chapter4
+          cd Chapter4
           python -m unittest discover
         
 
