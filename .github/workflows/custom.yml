@@ -13,7 +13,7 @@ jobs:
       - name: Hello world custom action
         uses: fardus242/custome-action@main
         with:
-          who-to-greet: "CoderCo"
+         who-to-greet: "CoderCo"
 
 
 
